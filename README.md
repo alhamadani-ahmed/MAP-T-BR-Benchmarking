@@ -1,6 +1,6 @@
 # MAP-T-BR-Benchmarking
 
-This repository contains the Maptperf benchmarking tool and configuration scripts used to configure MAP-T Border Relay (BR) implementations for the experiments. The repository is organized into two top-level directories: `Maptperf/` and `DUT configuration/`.
+This repository contains the Maptperf (version 1.3) benchmarking tool and configuration scripts used to configure MAP-T Border Relay (BR) implementations for the experiments. The repository is organized into two top-level directories: `Maptperf/` and `DUT configuration/`.
 
 ## MAPTPERF: A Benchmarking Tool for MAP-T
 
