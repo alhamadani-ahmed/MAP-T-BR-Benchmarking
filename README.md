@@ -64,7 +64,7 @@ The test scripts contain experiment-specific parameter values in their parameter
 
 ### `DUT configuration/`
 
-This directory contains the scripts and startup configuration for the two MAP-T BR implementations, Jool and FD.io VPP.
+This directory contains the scripts and startup configuration for the two MAP-T BR implementations, Jool (The version used is 4.1.255.3 (distributed as 4.2.0-rc2)) and FD.io VPP (The version used is 24.02).
 
 - **`Jool/Jool-BR-Configuration setter.sh`** configures the Linux interfaces and routes, enables IPv4/IPv6 forwarding, creates a Jool MAP-T instance and forwarding-map rule, installs the relevant iptables rules, and sets neighbour information. The comments identify it as a configuration for the BME R730 (TS1) with EA length 13 bits.
 - **`VPP/VPP-BR-configuration setter.sh`** configures the VPP interfaces, creates the MAP-T domain and route, enables MAP-T on the interfaces, and sets neighbour information. Its comments likewise identify the BME R730 (TS1) and EA length 13 bits.
