@@ -1,4 +1,5 @@
 # Jool BR configuration setter script (to be used for Jool at the BME R730 (TS1) with EA-Length = 13 bits)
+# The version of Jool used: 4.1.255.3 (distributed as 4.2.0-rc2)
 #!/bin/bash
 
 ip link set eno1 up
