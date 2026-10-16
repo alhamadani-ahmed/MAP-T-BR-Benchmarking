@@ -1,4 +1,5 @@
 # VPP BR configuration setter script (to be used the BME R730 (TS1) with EA-Length = 13 bits)
+# The version of VPP used: 24.02
 #!/bin/bash
 
 # setting ip addresses for both interfaces
